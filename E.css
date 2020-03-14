@@ -1,0 +1,115 @@
+.celular{
+	position: relative;
+  width: 360px;
+  height: 720px;
+  margin: auto;
+  border: 4px black solid;
+  border-top-width: 16px;
+  border-bottom-width: 16px;
+  border-radius: 54px;
+  display: flex;
+ }
+
+.contenedor{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+li{
+  list-style: none;
+}
+
+.icon{
+  width: 5%;
+}
+
+.settings{
+  
+  /*justify-content: space-between;*/
+}
+
+.nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 20px;
+}
+
+.number{
+  border: 5px black solid;
+  border-radius: 48px;
+  color: white;
+  background-color: black;
+  border-top-width: 2px;
+  border-bottom-width: 5px;
+  border-left-width: 5px;
+  border-right-width: 5px;
+}
+
+.title{
+  width: 200px;
+  scale:150%;
+}
+
+.box{
+  display: flex;
+  flex-direction: row;
+  justify-content: center
+}
+
+.jfif{
+  width: 40%;
+  border: 4px white solid;
+}
+
+.price{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.details{
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  width: 120px;
+}
+
+.total{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  width: 340px;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.gray_little{
+  color: gray;
+  font-size: 85%;
+}
+
+.button{
+  border: 4px black solid;
+  border-radius: 128px;
+  color: white;
+  background-color: black;
+  border-top-width: 15px;
+  border-bottom-width: 15px;
+  border-left-width: 120px;
+  border-right-width: 120px;
+}
+
+.break{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gray{
+  color: gray;
+  font-size: 125%;
+}
